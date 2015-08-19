@@ -13,4 +13,13 @@
         <url-pattern>/SayHello</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>GetUserParams</servlet-name>
+        <servlet-class>com.joelcoulson.ui.GetUserParams</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetUserParams</servlet-name>
+        <url-pattern>/GetUserParams</url-pattern>
+    </servlet-mapping>
+
 </web-app>
